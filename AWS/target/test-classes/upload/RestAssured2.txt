@@ -1,0 +1,10 @@
+Намери библиотека (supported + latest version + compatible with Java 11), с коята да можеш да работиш с бъкетите.
+Create an AWS Helper class to support the following scenarios:
+0. List all files in s3 bucket / a nested dir in s3 bucket.  (5 000+ files in the bucket)
+1. Имплементирай cucumber scenario с подходящи параметри за upload/download директно в s3 bucket
+2. Имплементирай cucumber scenario с подходящи параметри за upload/download в директория, която се намира в s3 bucket
+3. Имплементирай сценарий, който да проверява дали даден файл се намира в s3 bucket или някоя папка в него
+4. Имплементирай cucumber scenario за Multi-file upload/download директно в s3 bucket
+5. Имплементирай cucumber scenario за Multi-file upload/download в директория, която се намира в s3 bucket
+6. Create a step to delete a file from S3 bucket
+7. Create a Background step to clean the S3 bucket - delete all files from s3 or a nested dir (5 000+ files in the bucket). Note batch delete by 1000 files
